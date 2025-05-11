@@ -1,0 +1,32 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\LPC2148 Demo Program\Stepper Motor(360)\program.uvproj
+Project File Date:  05/07/2025
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling program.c...
+program.c(3): warning:  #1295-D: Deprecated declaration delay - give arg types
+  void delay();
+program.c(16): warning:  #1-D: last line of file ends without a newline
+        for(i=0;i<200000;i++);}
+program.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=636 RO-data=32 RW-data=16 ZI-data=1256  
+FromELF: creating hex file...
+".\program.axf" - 0 Error(s), 2 Warning(s).
+</pre>
+</body>
+</html>
+ex file...
+".\program.axf" - 0 Error(s), 3 Warning(s).
+ram.c(10): warning:  #1-D: last line of file ends without a newline
+    IOSET0|=a[i];}}
+program.c(10): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
+program.c: 4 warnings, 3 errors
+".\program.axf" - 3 Error(s), 4 Warning(s).
+Target not created
