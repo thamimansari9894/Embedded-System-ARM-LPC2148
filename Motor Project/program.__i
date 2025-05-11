@@ -1,0 +1,6 @@
+-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork 
+-I "C:\ARM Software\ARM\RV31\INC"
+-I "C:\ARM Software\ARM\CMSIS\Include"
+-I "C:\ARM Software\ARM\Inc\Philips"
+
+-o .\program.o --omf_browse .\program.crf --depend .\program.d "program.c"
